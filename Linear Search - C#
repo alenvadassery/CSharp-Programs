@@ -11,7 +11,7 @@ public class Program
 		string userInputString;
 		int userSearchInput;
 		int [] inputIntegerArray;
-		List<int> elementFoundPosition = new List<int>();
+		List<int> elementFoundPositions = new List<int>();
 		
 		Console.WriteLine("Enter number's with comma to be in list to be searched: ");
 		userInputString = Console.ReadLine();
@@ -25,7 +25,7 @@ public class Program
 		{
 			if(inputIntegerArray[i] == userSearchInput)
 			{
-				elementFoundPosition.Add(i+1);
+				elementFoundPositions.Add(i+1);
 			}
 		}
 		
@@ -41,9 +41,9 @@ public class Program
 		
 		Console.Write("Your items found at position: ");
 		
-		foreach(var item in elementFoundPosition)
+		foreach(var position in elementFoundPositions)
 		{
-				Console.Write(item + " ");
+				Console.Write(position + " ");
 		}	
 		
 	}
