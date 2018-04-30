@@ -6,7 +6,7 @@ public class Program
 {
 	public static void Main()
 	{
-		// Pogram for Linear Serach in C#
+		// Program for Linear Serach in C#
 		
 		string userInputString;
 		int userSearchInput;
