@@ -45,7 +45,9 @@
 			{
 				Console.Write(position + " ");
 			}
-	
+			
+			//Preventing Console from flashing out.
+			Console.Read();
 		}
 	}
 	
